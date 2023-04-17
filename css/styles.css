@@ -26,13 +26,11 @@ body {
 
 #nav #tagline
 {
-    position: relative;
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
     font-family:verdana;
     color: black;
-    text-align: left;
 }
 
 
@@ -80,4 +78,13 @@ body {
 
 #nav-list a::after {
     content: " | " ;
+}
+
+#container-post
+{
+    background: #EA5455;
+    margin: 1.5em;
+    padding: 0.5em;
+    text-align: left;
+    color: white;
 }
